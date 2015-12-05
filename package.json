@@ -1,0 +1,36 @@
+{
+  "name": "gl-react-color-matrix",
+  "version": "1.0.0",
+  "description": "Universal gl-react effect to apply 4x4 rgba color matrix on a content",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "rm -rf lib/ && babel --presets es2015,stage-1,react --source-maps -d lib src",
+    "prepublish": "npm run compile"
+  },
+  "peerDependencies": {
+    "gl-react": ">= 2.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-1": "^6.1.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gre/gl-react-color-matrix.git"
+  },
+  "keywords": [
+    "gl-react",
+    "color",
+    "matrix",
+    "color-matrix",
+    "gl",
+    "react"
+  ],
+  "author": "Gaëtan Renaudeau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gre/gl-react-color-matrix/issues"
+  },
+  "homepage": "https://github.com/gre/gl-react-color-matrix#readme"
+}
