@@ -1,6 +1,6 @@
 {
   "name": "gl-react-color-matrix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal gl-react effect to apply 4x4 rgba color matrix on a content",
   "main": "lib/index.js",
   "scripts": {
